@@ -6,7 +6,7 @@
 }
 
 img {
-    box-sizing: 100%;
+    max-width: 100%;
 }
 
 /* COMMON */
@@ -18,10 +18,46 @@ img {
 }
 
 .container{
-    background-color: aquamarine;  /*DEBUG*/
     width: 80%;
     margin: 0 auto;
 }
+
+/* HEADER */
+header{
+    height: 50px;
+    background-color: aqua; /*debug*/
+}
+
+header .container{
+    background-color: rgb(188, 151, 151);/*debug*/
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* SEX */
+
+header .sex{
+    width:fit-content;
+}
+.sex ul{
+    list-style: none;
+}
+
+.sex a{
+    text-decoration: none;
+    color: white;
+    padding-right: .5rem;
+}
+
+/* LOGO */
+header .logo{
+    width: 80px;
+}
+
+
+
+
+
 
 /*MAIN*/
 
@@ -29,10 +65,7 @@ img {
     flex-wrap: wrap;
     justify-content: space-between;
 }
-.row-cards .col-cards {
-    background-color: white;  /*DEBUG*/
-    
-    border: 1px solid black; /*DEBUG*/
+.row-cards .col-cards { 
     width: calc(95% / 3);
     margin-top: 20px ;
 }
@@ -57,7 +90,6 @@ img {
 .article .brand{
     font-size: .6rem;
 }
-
 .article ul{
     list-style: none;
 }
@@ -99,7 +131,6 @@ img {
     top:2%;
     right: 0;
 }
-
 .heart{
     display: block;
     font-size: 2rem;

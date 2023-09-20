@@ -12,9 +12,14 @@ img {
 /* COMMON */
 .flex{
     display: flex;
+    
 }
 .relative{
     position: relative;
+}
+.fixed{
+    position: fixed;
+    z-index: 1;
 }
 
 .container{
@@ -22,14 +27,17 @@ img {
     margin: 0 auto;
 }
 
+
 /* HEADER */
 header{
     height: 50px;
-    background-color: aqua; /*debug*/
+    top:0;
+    left:0;
+    width: 100%;
+    background-color:#ff6900; 
 }
 
 header .container{
-    background-color: rgb(188, 151, 151);/*debug*/
     justify-content: space-between;
     align-items: center;
 }
@@ -54,13 +62,31 @@ header .logo{
     width: 80px;
 }
 
+/* SHOPPE */
 
+header .shoppe{
+    width:fit-content;
+}
+.shoppe ul{
+    list-style: none;
+}
+
+.shoppe a{
+    text-decoration: none;
+    color: white;
+    padding-right: .5rem;
+    font-size: .8rem;
+    line-height: 50px;
+}
 
 
 
 
 /*MAIN*/
 
+main{
+    margin-top: 50px;
+}
 .row-cards {
     flex-wrap: wrap;
     justify-content: space-between;

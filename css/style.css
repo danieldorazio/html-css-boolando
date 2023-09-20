@@ -27,24 +27,45 @@ img {
     justify-content: space-between;
 }
 .row-cards .col-cards {
-    background-color: rgb(201, 112, 177);  /*DEBUG*/
+    background-color: white;  /*DEBUG*/
     
     border: 1px solid black; /*DEBUG*/
     width: calc(95% / 3);
     margin-top: 20px ;
 }
 
-.col-cards .img{
+/* CHANGE-PHOTO */
+.change-photo .img{
     width: 100%;   
 }
-.col-cards .img-hover{
+.change-photo .img-hover{
     display: none;
 }
 
-.col-cards:hover .img{
+.change-photo:hover .img{
     display: none;
 }
-.col-cards:hover .img-hover{
+.change-photo:hover .img-hover{
     width: 100%;
     display: inline-block;
 }
+
+/* ARTICLE */
+.article .brand{
+    font-size: .6rem;
+}
+
+.article ul{
+    list-style: none;
+}
+.article li{
+    display: inline;
+    font-size: .6rem;
+}
+.article .discounted{
+    color:red
+}
+.article .full-price{
+    text-decoration:line-through;
+}
+

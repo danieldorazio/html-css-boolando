@@ -90,3 +90,21 @@ img {
 .discount .sustainability{
     background-color: green;  /*dare var*/
 }
+
+/* FAVORITES */
+.favorites{
+    display: inline-block;
+    background-color: white;
+    position: absolute;
+    top:2%;
+    right: 0;
+}
+
+.heart{
+    display: block;
+    font-size: 2rem;
+    padding: .5rem;
+}
+.favorites:hover .heart{
+    color: red;
+}

@@ -13,6 +13,9 @@ img {
 .flex{
     display: flex;
 }
+.relative{
+    position: relative;
+}
 
 .container{
     background-color: aquamarine;  /*DEBUG*/
@@ -69,3 +72,21 @@ img {
     text-decoration:line-through;
 }
 
+/* DISCOUNT */
+.discount{
+    position: absolute;
+    bottom: 20%;
+    left: 0;
+}
+.discount div{
+    display: inline-block;
+    padding: .3em .8em;
+    font-size: .6rem;
+    color: white;
+}
+.discount .percentage{
+    background-color: red;  /*dare var*/
+}
+.discount .sustainability{
+    background-color: green;  /*dare var*/
+}

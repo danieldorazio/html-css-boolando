@@ -23,7 +23,7 @@ img {
 }
 
 .container{
-    width: 80%;
+    width: 70%;
     margin: 0 auto;
 }
 
@@ -42,44 +42,27 @@ header .container{
     align-items: center;
 }
 
-/* SEX */
+/* SEX */ /* SHOPPE */
 
-header .sex{
-    width:fit-content;
-}
-.sex ul{
+.sex ul, .shoppe ul{
     list-style: none;
 }
 
-.sex a{
+.sex a, .shoppe a{
     text-decoration: none;
     color: white;
     padding-right: .5rem;
+}
+
+.shoppe a{
+    font-size: .8rem;
+    line-height: 50px;
 }
 
 /* LOGO */
 header .logo{
     width: 80px;
 }
-
-/* SHOPPE */
-
-header .shoppe{
-    width:fit-content;
-}
-.shoppe ul{
-    list-style: none;
-}
-
-.shoppe a{
-    text-decoration: none;
-    color: white;
-    padding-right: .5rem;
-    font-size: .8rem;
-    line-height: 50px;
-}
-
-
 
 
 /*MAIN*/
@@ -143,10 +126,10 @@ main{
     color: white;
 }
 .discount .percentage{
-    background-color: red;  /*dare var*/
+    background-color: red;  
 }
 .discount .sustainability{
-    background-color: green;  /*dare var*/
+    background-color: green;  
 }
 
 /* FAVORITES */
@@ -165,3 +148,31 @@ main{
 .favorites:hover .heart{
     color: red;
 }
+
+
+/* FOOTER */
+footer{
+    background-color:#1a1a1a;
+    padding: 10px 0;
+}
+footer .container{
+    justify-content: space-between;
+}
+
+/* INFO */ /* SOCIAL */
+
+.info h6, .social h6{
+    color: white;
+}
+.info ul, .social ul{
+    list-style-type: none;
+}
+.info a, .social a{
+    text-decoration: none;
+    color: white;
+    font-size: .5rem;
+    padding-right:10px;
+}
+
+
+
